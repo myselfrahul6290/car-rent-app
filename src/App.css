@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+
+.App{
+  background:#9fecff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.Box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  width:90vw;
+  flex-wrap: wrap;
+  padding: 22px;
+  margin: auto;
+  background:#9fecff;
+
 }
 
-.App-link {
-  color: #61dafb;
+.Deatils-Box{
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  /* width:90vw; */
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  /* margin: auto; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* style={{background:"#e3edef"}} */
+
+.saveBtn{
+  background: #ebf8f9;
+  padding: 5px;
+  border: 1px dotted #0bfdfd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.search{
+  padding: 5px 50px;
+  margin: 0 10px;
+  background: transparent;
+  
+
+}
+
+.NavBar{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 25px;
+  background:#e0f9ff;
+  width:84%;
+  margin: auto;
+  
+}
+
+.Options{
+  background: transparent;
+ 
+  border: none;
+}
+
+.Pagination{
+  width:30%;
+  margin: auto;
+}
+
+.Pagination ul{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: auto;
+
+}
+
+.Pagination ul li{
+  list-style: none;
+  margin: 3px;
+  
+  
+}
+.Pagination ul li button{
+  text-decoration: none;
+  color: #111;
+  
 }
